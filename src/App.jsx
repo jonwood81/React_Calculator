@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import ButtonGrid from './components/ButtonGrid.jsx';
 import DisplayContainer from './components/DisplayContainer.jsx';
-import './assets/hardware-img.jpg';
 
 
 function App() {
