@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.back-btn{
+  color:black;
+  background-color: rgb(139, 92, 164);
+  border-radius: 10%;
+  font-size:1.3rem;
+  font-weight: 300;
+  border: solid, thin, rgba(40, 24, 47, 0.3);
+  text-align:inherit;
+  align-content:space-evenly;
+}
+
+.aligncontent{
+  flex: content;
+  padding:3px;
+}
+
+.centercontent{
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+}
+
+.display{
+  background-color: #e1d7d7;
+  color:rgb(119, 23, 23);
+  font-size:1.75rem;
+  font-weight:400;
+  font-family: Arial, sans-serif;
+  box-shadow: inset 0 0 10px rgba(25, 26, 25, 0.3); /* Inner glow effect */
+};
+
+.solution{
+  color:darkgreen;
+  font-weight:600;
+}
+
+.number-button{
+  color:lavender;
+  background-color: rgba(67, 63, 63, .6);
+  border-radius: 4px;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+  background-clip: padding-box;
+  box-shadow:
+        0 1px 0 rgba(0,0,0,.25),
+        inset 0 1px 2px rgba(255,255,255,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+  background-image: linear-gradient(90deg, #a3a9ad 0%, #c5c9cd 100%);
+  padding:auto;
+}
+
+.function-buttons{
+  color:lavender;
+  background-color: rgba(79, 46, 89, 0.6);
+  border-radius: 4px;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+  background-clip: padding-box;
+  box-shadow:
+        0 1px 0 rgba(0,0,0,.25),
+        inset 0 1px 2px rgba(255,255,255,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+  background-image: linear-gradient(90deg, #a3a9ad 0%, #c5c9cd 100%);
+  padding:auto;
+}
+
+.face{
+  background-color: rgb(88, 107, 125);
+  /*background-image: url("./assets/hardware.png");*/
+  padding:10px;
+  border-radius: 4%;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgba(43, 54, 99, 0.463);
+  flex:content;
+  align-items:stretch;
+}
+
+
+.bgrid {
+  height: auto;
+  width:100%;
+  position: relative;
+  align-items: center;
+  flex:auto;
+}
