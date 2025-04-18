@@ -120,6 +120,11 @@
   align-items:stretch;
 }
 
+.test{
+  position:fixed;
+  top:60px;
+  left:60px;
+}
 
 .bgrid {
   height: auto;
