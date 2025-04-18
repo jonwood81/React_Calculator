@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function DisplayContainer({inputDisplay, compResult, deleteChar, solutionRequested }) {
 
-    let displayData = inputDisplay.join("");
+    //let displayData = inputDisplay.join("");
     const [displaySolution, setDisplaySolution] = useState(false);
 
     function displaySolController(solutionRequested){
@@ -14,11 +14,11 @@ function DisplayContainer({inputDisplay, compResult, deleteChar, solutionRequest
             <div className="row g-0 m-1">
                 {solutionRequested? 
                                     <div className="col-sm-6 col-md-9 border bg-light rounded display">
-                                        {displayData}<span className="solution">{compResult}</span>
+                                        {inputDisplay}<span className="solution">{compResult}</span>
                                     </div>
                                     :
                                     <div className="col-sm-6 col-md-9 border bg-light rounded display">
-                                        {displayData}
+                                        {inputDisplay}
                                     </div>
                                     }
                 <div className="col-2 col-md-3 p-1">
